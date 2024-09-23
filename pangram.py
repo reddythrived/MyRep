@@ -1,7 +1,7 @@
 import string
 def is_pangram(s):
-    a=set(string.lowercase)
-    b=set(s.lowe())
+    a=set(string_lowercase)
+    b=set(s.lower())
 
     return a.issubset(b)
 
